@@ -12280,3 +12280,17 @@ pre .code {
   padding: 20px;
   margin: 10px;
 }
+
+
+/* Initially hide the rows */
+.row {
+  opacity: 0;
+  transform: translateY(50px); /* Slide down effect */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Apply animation when row becomes visible */
+.row.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
