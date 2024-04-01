@@ -11188,14 +11188,22 @@ p {
 
 /*/ portfolio wrapper */
 .portfolio-card {
+  width: 100%;   /* Fixed width */
+  height: 40%;  /* Fixed height */
   display: block;
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-card .portfolio-card-img {
-  width: 100%;
+.portfolio-card img {
+  width: 100%;    /* Take full width of container */
+  height: 100%;   /* Take full height of container */
+  object-fit: cover; /* Maintain aspect ratio; cover the entire container */
 }
+
+/* .portfolio-card .portfolio-card-img {
+  width: 100%;
+} */
 
 .portfolio-card .portfolio-card-overlay {
   position: absolute;
@@ -12280,7 +12288,6 @@ pre .code {
   padding: 20px;
   margin: 10px;
 }
-
 
 /* Initially hide the rows */
 .row {
