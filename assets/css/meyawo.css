@@ -11201,10 +11201,6 @@ p {
   object-fit: fill; /* Maintain aspect ratio; cover the entire container */
 }
 
-/* .portfolio-card .portfolio-card-img {
-  width: 100%;
-} */
-
 .portfolio-card .portfolio-card-overlay {
   position: absolute;
   top: 50%;
