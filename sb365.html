@@ -48,6 +48,20 @@
       background: #333;
       transform: translateX(-50%);
     }
+
+    /* Media Query for smaller screens */
+    @media (max-width: 576px) {
+      .mobile-container {
+        width: 100%;
+        height: auto;
+        border-radius: 27px;
+        border: 15px solid;
+      }
+      .mobile-container:before,
+      .mobile-container:after {
+        display: none;
+      }
+    }
   </style>
 </head>
 <body>
