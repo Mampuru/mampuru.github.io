@@ -93,6 +93,10 @@
   </div>
 </div>
 
+<div class="container text-center mt-3">
+  <button onclick="goBack()" class="btn btn-secondary">Back</button>
+</div>
+
 <!-- Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
@@ -119,6 +123,12 @@
       }
     }
   });
+
+// JavaScript function to go back
+  function goBack() {
+    window.history.back();
+  }
+
 </script>
 
 </body>
